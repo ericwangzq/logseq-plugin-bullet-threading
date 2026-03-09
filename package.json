@@ -4,6 +4,7 @@
   "main": "dist/index.html",
   "scripts": {
     "dev": "vite",
+    "lint": "eslint src --ext .ts",
     "build": "tsc && vite build",
     "preinstall": "npx only-allow pnpm"
   },
